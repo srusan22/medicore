@@ -30,3 +30,27 @@ render_header('Dashboard', 'dashboard');
         <span class="stat-label">Dostupno objašnjenje</span>
     </article>
 </section>
+
+<section class="content-grid">
+    <article class="panel">
+        <h2>Rezultati analize</h2>
+        <div class="result-row">
+            <div>
+                <strong>Vitamin D</strong>
+                <p>Vrijednost je ispod optimalnog raspona.</p>
+            </div>
+            <span class="badge warning">Nizak</span>
+        </div>
+        <p class="plain-text">Nizak vitamin D može biti povezan s umorom, slabijim imunitetom i bolovima u mišićima.</p>
+    </article>
+
+    <article class="panel">
+        <h2>Preporuke</h2>
+        <ul class="check-list">
+            <li>Razmotriti dodatak vitamina D uz savjet liječnika.</li>
+            <li>Više boravka na suncu kada je sigurno.</li>
+            <li>U prehranu češće uključiti masnu ribu, jaja i obogaćene namirnice.</li>
+        </ul>
+    </article>
+</section>
+<?php render_footer(); ?>
